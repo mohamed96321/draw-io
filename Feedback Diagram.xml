@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T12:13:44.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wtyBzzWBshncwVveWKjf" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-11T20:09:19.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="44fc4_HzQWD0oK4jjLyC" version="22.0.4" type="github" pages="6">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -436,6 +436,26 @@
             <mxPoint x="590.5" y="380" as="sourcePoint" />
             <mxPoint x="590" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9wcAjU2VlUe2VdE7DmYp" name="006 - react architecture">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yIbr5eGCz5odFCOPxlt8-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Data Layer control (Redux)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="175" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIbr5eGCz5odFCOPxlt8-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;index.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yIbr5eGCz5odFCOPxlt8-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;App.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yIbr5eGCz5odFCOPxlt8-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Rendering layer control (React Router)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="295" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

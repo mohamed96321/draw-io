@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T09:23:26.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-sOKmFC8-5a7qY0slzbE" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-12T09:26:04.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="CUsZQk8h6kH4tu1oshQA" version="22.0.4" type="github" pages="7">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -603,6 +603,27 @@
         </mxCell>
         <mxCell id="dzQqbflBhyjNtqzRlfWC-18" value="&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;SurveyList can access the store thanks to the Provider tag&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="590" y="290" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="dzQqbflBhyjNtqzRlfWC-19" target="dzQqbflBhyjNtqzRlfWC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Redux Store&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="710" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="dzQqbflBhyjNtqzRlfWC-20" target="dzQqbflBhyjNtqzRlfWC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="dzQqbflBhyjNtqzRlfWC-20" target="dzQqbflBhyjNtqzRlfWC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;combineReducers&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="830" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;surveysReducer&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dzQqbflBhyjNtqzRlfWC-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;authReducer&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

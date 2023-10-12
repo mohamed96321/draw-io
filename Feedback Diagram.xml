@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T13:27:51.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="f-AOTLZwc3Y06GGx7KbE" version="22.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-10-12T16:11:56.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="S900wVBsW4mrrC3f1lLz" version="22.0.4" type="github" pages="11">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -885,6 +885,77 @@
         </mxCell>
         <mxCell id="dZ7cwd2ZVklyiYn1smE0-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;materialize.css&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="460" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OTvf1X4aIGeCSY3ge8US" name="011 - API Request">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-1" target="w-YN6JUHu0YKSlU3qAg4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;React App Boots Up&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="370" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-2" target="w-YN6JUHu0YKSlU3qAg4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;App component calls action creator&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-4" value="" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Fetch User&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-7" target="w-YN6JUHu0YKSlU3qAg4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;axios.get(&#39;/api/current_user&#39;)&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;dispatch(action)&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-9" target="w-YN6JUHu0YKSlU3qAg4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Express API&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="700" y="215" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;User&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-16" value="" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-17" target="w-YN6JUHu0YKSlU3qAg4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;authReducer&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="370" as="sourcePoint" />
+            <mxPoint x="460" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="w-YN6JUHu0YKSlU3qAg4-20" target="w-YN6JUHu0YKSlU3qAg4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;new &#39;auth&#39; piece of state&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Header&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w-YN6JUHu0YKSlU3qAg4-24" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Redux Store&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="375" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

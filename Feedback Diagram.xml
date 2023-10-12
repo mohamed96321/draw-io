@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T12:51:28.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="pNautHVq0zUT2wy7YOl4" version="22.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-12T13:27:51.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="f-AOTLZwc3Y06GGx7KbE" version="22.0.4" type="github" pages="10">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -850,6 +850,41 @@
               <mxPoint x="160" y="145" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lQGgDlQCIYjKxFR7AiNF" name="010 - React Webpack">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-1" value="" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Create React App&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="345" y="60" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="dZ7cwd2ZVklyiYn1smE0-3" target="dZ7cwd2ZVklyiYn1smE0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Webpack&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="385" y="110" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="dZ7cwd2ZVklyiYn1smE0-6" target="dZ7cwd2ZVklyiYn1smE0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="dZ7cwd2ZVklyiYn1smE0-6" target="dZ7cwd2ZVklyiYn1smE0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;index.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;App.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZ7cwd2ZVklyiYn1smE0-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;materialize.css&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

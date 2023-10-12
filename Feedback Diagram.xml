@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T10:33:59.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="_rfeJxX9FvslYLADQMfa" version="22.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-12T10:54:49.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8H8fzWRGQtBgwJ3IlfAc" version="22.0.4" type="github" pages="8">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -624,6 +624,12 @@
         </mxCell>
         <mxCell id="dzQqbflBhyjNtqzRlfWC-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;authReducer&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="200" y="1000" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl4FadtsnXynBTJ_AHXi-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Records a list of all surveys user has created&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1015" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl4FadtsnXynBTJ_AHXi-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Records whether or not the user is logged in&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1015" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

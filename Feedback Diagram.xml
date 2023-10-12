@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T11:48:09.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="BC4HiBJStonFKtd-isyy" version="22.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-12T11:51:25.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="BzYZluqUu8cpWdJNkyT5" version="22.0.4" type="github" pages="9">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -487,7 +487,7 @@
         <mxCell id="yIbr5eGCz5odFCOPxlt8-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SurveyField&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yIbr5eGCz5odFCOPxlt8-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SurveyDetails&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yIbr5eGCz5odFCOPxlt8-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SurveyListItem&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="750" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yIbr5eGCz5odFCOPxlt8-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -544,6 +544,18 @@
             <mxPoint x="519.5" y="690" as="sourcePoint" />
             <mxPoint x="519.5" y="740" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fH8PfhItt0WYRM0GQcU--2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Show when the user is at emaily.com/&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fH8PfhItt0WYRM0GQcU--3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Always Visible&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="580" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fH8PfhItt0WYRM0GQcU--5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;User can&#39;t see this unless they&#39;re logged in&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fH8PfhItt0WYRM0GQcU--6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;User can&#39;t see this unless they&#39;re logged in&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

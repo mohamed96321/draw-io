@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T12:10:30.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ddtHr0o7fkoVomoEJTnW" version="22.0.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-13T12:18:39.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="vuU6JVtSngOTrtAzAw3x" version="22.0.4" type="github" pages="16">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1263,8 +1263,8 @@
         <mxCell id="TyztUfkg1RjqA8OzPw7v-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;- Always use an outside payment processor&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="155" y="250" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TyztUfkg1RjqA8OzPw7v-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;- Possible to avoid monthly payment/multiple plans?&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="160" y="380" width="470" height="40" as="geometry" />
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-7" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; - Possible to avoid monthly payment/multiple plans? it&#39;s will we easy on &lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;separate&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;project&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="790" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TyztUfkg1RjqA8OzPw7v-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;- Fraud and chargebacks are a pain&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="155" y="410" width="330" height="40" as="geometry" />

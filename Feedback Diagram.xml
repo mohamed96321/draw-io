@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T12:18:39.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="vuU6JVtSngOTrtAzAw3x" version="22.0.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-13T12:28:52.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="gAWVW5gbnJm6ATq3n4f-" version="22.0.4" type="github" pages="16">
   <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1268,6 +1268,51 @@
         </mxCell>
         <mxCell id="TyztUfkg1RjqA8OzPw7v-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;- Fraud and chargebacks are a pain&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="155" y="410" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-9" target="TyztUfkg1RjqA8OzPw7v-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;User clicks &quot;Add Credits&quot;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="155" y="550" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-10" target="TyztUfkg1RjqA8OzPw7v-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tell Stripe to show a credit card form&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="155" y="650" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-12" target="TyztUfkg1RjqA8OzPw7v-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;User enters credit card details&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="155" y="760" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-14" target="TyztUfkg1RjqA8OzPw7v-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-14" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Details sent directly from the form to Stripe&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="155" y="870" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-16" target="TyztUfkg1RjqA8OzPw7v-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Stripe sends back a token representing the charge&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1010" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-18" target="TyztUfkg1RjqA8OzPw7v-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;We send token to our API&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1010" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="TyztUfkg1RjqA8OzPw7v-20" target="TyztUfkg1RjqA8OzPw7v-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-20" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Our API confirms the charge we successful wth Stripe&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="870" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TyztUfkg1RjqA8OzPw7v-22" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Add credits to user&#39;s account&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

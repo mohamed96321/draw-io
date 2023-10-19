@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T10:58:28.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Z0UkkHzuWISuEzobuJBA" version="22.0.5" type="github" pages="18">
-  <diagram name="001 - process" id="j2Iy3aE0zgFhhcb2NK0M">
+<mxfile host="app.diagrams.net" modified="2023-10-19T10:59:39.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Hkaeh2kB6xY13U04n4YK" version="22.0.5" type="github" pages="18">
+  <diagram name="001 -  Project as All" id="j2Iy3aE0zgFhhcb2NK0M">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -46,7 +46,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="g3QDjjaFEJ6Z5ZMhbzCq" name="002 - process">
+  <diagram id="g3QDjjaFEJ6Z5ZMhbzCq" name="002 - Production Mode">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -93,7 +93,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="l6G2xkgCqp1B_uaZYckl" name="003 - process">
+  <diagram id="l6G2xkgCqp1B_uaZYckl" name="003 - Development Mode">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -203,7 +203,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6zoInUwaDQWXVLVB6R2c" name="004 - process">
+  <diagram id="6zoInUwaDQWXVLVB6R2c" name="004 - Cookie Session">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
